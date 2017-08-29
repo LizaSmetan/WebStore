@@ -134,6 +134,138 @@ header .bottom-header .logo{
 .bottom-header .user-controls a+a{
 	margin-left: 30px;
 }
+.circle{
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background-color: #ff5912;
+	vertical-align: middle;
+}
+footer{
+	background-color: #fff;
+	width: 100%;
+	height: 245px;
+	padding: 84px 0;
+}
+.footer-logo span{
+	display: block;
+	font-size: 14px;
+	line-height: 2.14em;
+	margin-top: 22px;
+}
+.footer-col{
+	font-size: 14px;
+	line-height: 2.14em;
+	list-style: disc;
+}
+.footer-col li:hover,
+.footer-col a:hover{
+	color: #ff5912;
+	text-decoration: none;
+}
+.payment-methods{
+	padding: 10px 0;
+}
+.payment-methods span{
+	color: #ff5912;
+	font-size: 16px;
+	line-height: 1.87em;
+	font-weight: 600;
+	margin-bottom: 12px;
+	display: inline-block;
+}
+.payment-methods .cards-icons li+li{
+	margin-left: 10px;
+}
 /* DEFAULT COMPONENT END */
 /* ALL STYLES START */
+.user-controls-icon{
+	position: relative;
+}
+.items-carousel-description h6{
+	font-size: 18px;
+	line-height: 1.6em;
+	font-weight: 600;
+	margin-bottom: 17px; 
+}
+.user-controls-icon span{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	line-height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	background-color: #34404b;
+	position: absolute;
+    left: 4px;
+    bottom: 18px;
+}
+.new-item{
+	margin-bottom: 80px;
+}
+.load-more{
+	line-height: 60px;
+	text-align: center;
+	background-color: #fff;
+	margin-bottom: 119px;
+}
+.special-offer-sale{
+	height: 100px;
+	background-color: #fff;
+}
+.sale-banner{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	color: #fff;
+	background-color: #ff5912;
+	text-align: center;
+	padding: 22px;
+	margin-left: 62px;
+}
+.sale-banner-content h6{
+	font-size: 12px;
+	font-style: italic;
+	margin-bottom: 7px;
+}
+.sale-banner-content span{
+	font-size: 18px;
+	font-weight: 900;
+}
+.sale-description h5{
+	font-size: 22px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.sale-description span{
+	line-height: 2.5em;
+}
+.sale-price{
+	font-size: 32px;
+	font-weight: 900;
+	margin-right: 55px;
+}
+.sale-price .sale-price-value{
+	font-size: 22px
+}
+.sale-price .sale-price-icon{
+	display: inline-block;
+	margin-right: 10px;
+}
+.special-offer-area{
+	height: 100px;
+	background-color: #fff;
+	padding: 27px 0;
+}
+.offer-area-text{
+	display: block;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.offer-area-numbers{
+	display: block;
+	color: rgba(52, 64, 75, .4);
+	letter-spacing: .6em;
+}
 /* ALL STYLES END */
