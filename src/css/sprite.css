@@ -16,7 +16,8 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
-.icon-add-to-cart -hover-ic {
+.icon-add-to-cart-hover-ic,
+.icon-add-to-cart-ic:hover {
   background-image: url(../img/sprite.png);
   background-position: 0px -38px;
   width: 22px;
@@ -34,7 +35,8 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 27px;
   height: 19px;
 }
-.icon-cart-hover-ic {
+.icon-cart-hover-ic,
+.icon-cart-ic:hover {
   background-image: url(../img/sprite.png);
   background-position: -20px -59px;
   width: 24px;
@@ -46,7 +48,8 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 24px;
   height: 17px;
 }
-.icon-like-hover-ic {
+.icon-like-hover-ic,
+.icon-like-ic:hover {
   background-image: url(../img/sprite.png);
   background-position: -38px -80px;
   width: 19px;
@@ -88,7 +91,8 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 12px;
   height: 12px;
 }
-.icon-search-hover-ic {
+.icon-search-hover-ic,
+.icon-search-ic:hover {
   background-image: url(../img/sprite.png);
   background-position: -63px -38px;
   width: 18px;
@@ -100,7 +104,8 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 18px;
   height: 18px;
 }
-.icon-share-hover-ic {
+.icon-share-hover-ic,
+.icon-share-ic:hover {
   background-image: url(../img/sprite.png);
   background-position: -44px -59px;
   width: 19px;
@@ -112,7 +117,8 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 19px;
   height: 17px;
 }
-.icon-user-hover-ic {
+.icon-user-hover-ic,
+.icon-user-ic:hover {
   background-image: url(../img/sprite.png);
   background-position: 0px -59px;
   width: 20px;
