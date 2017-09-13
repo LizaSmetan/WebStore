@@ -274,9 +274,7 @@ html[xmlns] .flexslider .slides {
   position: absolute;
   text-align: center;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .item-flexslider .flex-control-paging li{
   margin: 0;
@@ -289,12 +287,8 @@ html[xmlns] .flexslider .slides {
   width: 10px;
   height: 16px;
   background-color: #fff;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  -webkit-border-radius: 0px;
-          border-radius: 0px;
-  -webkit-transition: all .3s linear;
-  -o-transition: all .3s linear;
+  box-shadow: none;
+  border-radius: 0px;
   transition: all .3s linear;
 }
 .item-flexslider .flex-control-paging li a:hover{

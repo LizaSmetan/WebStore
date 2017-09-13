@@ -52,17 +52,10 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('css-libs', ['css'], function() {
-    return gulp.src('src/css/**/*.css') // Выбираем файл для минификации
+    return gulp.src('app/css/style.css') // Выбираем файл для минификации
         .pipe(cssnano()) // Сжимаем
         .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
         .pipe(gulp.dest('app/css')); // Выгружаем в папку app/css
-});
-
-gulp.task('watch', ['browser-sync', 'css', 'scripts', 'sprite'], function() {
-    gulp.watch('src/css/**/*.css', ['css']); // Наблюдение за css файлами в папке css
-    gulp.watch('src/sprite/*.png', ['sprite']); // Наблюдение за папкой с картинками для спрайтов  папке sprite
-    gulp.watch('app/*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
-    gulp.watch('app/js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js
 });
 
 gulp.task('img', function() {
@@ -75,6 +68,17 @@ gulp.task('img', function() {
         })))
         .pipe(gulp.dest('app/img')); // Выгружаем на продакшен
 });
+
+gulp.task('watch', ['browser-sync', 'css', 'scripts', 'sprite', 'img'], function() {
+    gulp.watch('src/css/**/*.css', ['css']); // Наблюдение за css файлами в папке css
+    gulp.watch('src/sprite/*.png', ['sprite']); // Наблюдение за папкой с картинками для спрайтов  папке sprite
+    gulp.watch('src/js/**/*.js', ['scripts']);   // Наблюдение за JS файлами в папке js
+    gulp.watch('src/img/**/*.', ['img']);
+    gulp.watch('app/*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
+    gulp.watch('app/js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js
+});
+
+
 
 
 gulp.task('clear', function () {
