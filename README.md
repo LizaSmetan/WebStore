@@ -51,7 +51,7 @@ js/plugins.min.js            | Основные плагины
 
 **Стандартные классы**
 
-'''css
+```css
 
 .flex-container{     /* Для блоков с елементами, выстроеными в ряд */
 	display: flex;
@@ -92,11 +92,11 @@ js/plugins.min.js            | Основные плагины
 .orange-bg{       /* Оранжевый фон */
 	background-color: #ff5912;
 }
-'''
+```
 
 **Плагины**
 
-'''js
+```js
 
 $( function(){
 
@@ -114,4 +114,4 @@ $( function(){
 
 });
 
-'''
+```
