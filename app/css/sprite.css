@@ -17,7 +17,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 <i class="icon icon-home"></i>
 */
 .icon-add-to-cart-hover-ic,
-.icon-add-to-cart-ic:hover {
+.icon-add-to-cart-ic:hover{
   background-image: url(../img/sprite.png);
   background-position: 0px -38px;
   width: 22px;
@@ -26,7 +26,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 .icon-add-to-cart-ic {
   background-image: url(../img/sprite.png);
   background-position: -22px -38px;
-  width: 21px;
+  width: 22px;
   height: 21px;
 }
 .icon-amex-ic {
@@ -36,7 +36,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   height: 19px;
 }
 .icon-cart-hover-ic,
-.icon-cart-ic:hover {
+.icon-cart-ic:hover{
   background-image: url(../img/sprite.png);
   background-position: -20px -59px;
   width: 24px;
@@ -49,7 +49,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   height: 17px;
 }
 .icon-like-hover-ic,
-.icon-like-ic:hover {
+.icon-like-ic:hover{
   background-image: url(../img/sprite.png);
   background-position: -38px -80px;
   width: 19px;
@@ -63,7 +63,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-mail-ic {
   background-image: url(../img/sprite.png);
-  background-position: -81px -18px;
+  background-position: -81px -36px;
   width: 18px;
   height: 11px;
 }
@@ -87,25 +87,25 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-phone-book-ic {
   background-image: url(../img/sprite.png);
-  background-position: -81px -29px;
+  background-position: -81px -47px;
   width: 12px;
   height: 12px;
 }
 .icon-search-hover-ic,
-.icon-search-ic:hover {
-  background-image: url(../img/sprite.png);
-  background-position: -63px -38px;
-  width: 18px;
-  height: 18px;
-}
-.icon-search-ic {
+.icon-search-ic:hover{
   background-image: url(../img/sprite.png);
   background-position: -81px 0px;
   width: 18px;
   height: 18px;
 }
+.icon-search-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -81px -18px;
+  width: 18px;
+  height: 18px;
+}
 .icon-share-hover-ic,
-.icon-share-ic:hover {
+.icon-share-ic:hover{
   background-image: url(../img/sprite.png);
   background-position: -44px -59px;
   width: 19px;
@@ -118,7 +118,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   height: 17px;
 }
 .icon-user-hover-ic,
-.icon-user-ic:hover {
+.icon-user-ic:hover{
   background-image: url(../img/sprite.png);
   background-position: 0px -59px;
   width: 20px;
@@ -126,7 +126,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-user-ic {
   background-image: url(../img/sprite.png);
-  background-position: -43px -38px;
+  background-position: -44px -38px;
   width: 20px;
   height: 21px;
 }
